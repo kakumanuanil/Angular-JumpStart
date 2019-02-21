@@ -121,10 +121,11 @@ app.listen(3000);
 console.log('Express listening on port 3000.');
 
 //Open browser
-var opn = require('opn');
+//Below statements not necessary
+//var opn = require('opn');
 
-opn('http://localhost:3000').then(() => {
-    console.log('Browser closed.');
-});
+//opn('http://localhost:3000').then(() => {
+//    console.log('Browser closed.');
+//});
 
 
